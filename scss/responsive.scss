@@ -1,0 +1,94 @@
+.responsive-nav-burger{
+    img{
+        height: 20px;
+    }
+    display: none;
+}
+.responsive-navigation{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.918);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.responsive-sidenav-headline{
+    padding: 15px ;
+    text-align: right;
+}
+.responsive-nav-close-btn{
+    height: 30px;
+}
+.responsive-nav-inner{
+    text-align: center;
+}
+
+
+@media only screen and (max-width:700px){
+    .responsive-list{
+        color: white;
+        li{
+            display: block;
+            margin: 20px 0;
+            cursor: pointer;
+        }
+    }
+    .nav-lists-content{
+        display: none;
+    }
+    .responsive-nav-burger{
+        display: block;
+    }
+    .contact-bar-left-grid{
+        display: none;
+    }
+    .banner-text-content{
+        h1{
+            font-size: 30px;
+        }
+        p{
+            width: 100%;
+        }
+    }
+    .nav-lists{
+        display: none;
+    }
+    .contact-section{
+        display: block;
+    }
+    .banner-content{
+        h1{
+            font-size: 30px;
+        }
+    }
+    .galerry-tab-button{
+        margin: 1px;
+    }
+    .contact-banner-image{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .clients-headline{
+        padding-bottom: 30px;
+    }
+    .our-sponsores-items{
+        padding-bottom: 20px;
+    }
+    .footer-soc-media{
+        padding-bottom: 20px;
+    }
+    .footer-services-field{
+        text-align: center;
+        padding: 20px 0;
+        border: 1px solid #222;
+    }
+    .footer-posts{
+        padding-top: 20px;
+    }
+    
+}
